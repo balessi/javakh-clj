@@ -1,0 +1,89 @@
+#
+#   VizieR Astronomical Server vizier.u-strasbg.fr
+#    Date: 2016-09-18T20:18:05 [V1.99+ (14-Oct-2013)]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	votable-version=1.99+ (14-Oct-2013)	
+#INFO	-ref=VIZ57def62cb0af	
+#INFO	-out.max=unlimited	
+#INFO	queryParameters=23	
+#-oc.form=dec
+#-out.max=unlimited
+#-out.add=_r
+#-sort=_r
+#-nav=cat:J/A+A/376/441&tab:{J/A+A/376/441/stars}&key:source=J/A+A/376/441/stars&HTTPPRM:&-out.max=50&-out.form=HTML Table&-out.add=_r&-out.add=_RAJ,_DEJ&-sort=_r&-oc.form=sexa&
+#-c.eq=J2000
+#-c.r=  2
+#-c.u=arcmin
+#-c.geom=r
+#-source=J/A+A/376/441/stars
+#-order=I
+#-out=Cl
+#Cl=ngc3228
+#-out=RAJ2000
+#-out=e_RAJ2000
+#-out=DEJ2000
+#-out=e_DEJ2000
+#-out=VTmag
+#-out=pmRA
+#-out=e_pmRA
+#-out=pmDE
+#-out=e_pmDE
+#-out=Pr
+#
+
+#RESOURCE=yCat_33760441
+#Name: J/A+A/376/441
+#Title: Absolute proper motions of 112 open clusters (Dias+, 2001)
+#Table	J_A_A_376_441_stars:
+#Name: J/A+A/376/441/stars
+#Title: Stars with proper motions (merged files in the "pm" subdirectory)
+#Column	Cl	(A7)	Abbreviated cluster name	[ucd=meta.id.parent]
+#Column	RAJ2000	(A13)	Right ascension (J2000.0) from Tycho2	[ucd=pos.eq.ra;meta.main]
+#Column	e_RAJ2000	(I3)	Standard deviation in RA	[ucd=stat.error]
+#Column	DEJ2000	(A13)	Declination (J2000.0) from Tycho2	[ucd=pos.eq.dec;meta.main]
+#Column	e_DEJ2000	(I3)	Standard deviation in DE	[ucd=stat.error]
+#Column	VTmag	(F5.2)	Magnitude of the star from Tycho2	[ucd=phot.mag;em.opt.V]
+#Column	pmRA	(F7.2)	Proper motion {mu}_{alpha}_cos{delta}, ICRS	[ucd=pos.pm;pos.eq.ra]
+#Column	e_pmRA	(F6.2)	Standard deviation of pmRA, ICRS	[ucd=stat.error;pos.pm;pos.eq.ra]
+#Column	pmDE	(F7.2)	Proper motion {mu}_{delta}, ICRS	[ucd=pos.pm;pos.eq.dec]
+#Column	e_pmDE	(F6.2)	Standard deviation of pmDE, ICRS	[ucd=stat.error;pos.pm;pos.eq.dec]
+#Column	Pr	(I3)	[0/100] Membership probability	[ucd=stat]
+Cl;RAJ2000;e_RAJ2000;DEJ2000;e_DEJ2000;VTmag;pmRA;e_pmRA;pmDE;e_pmDE;Pr
+ ;"h:m:s";mas;"d:m:s";mas;mag;mas/yr;mas/yr;mas/yr;mas/yr;%
+-------;-------------;---;-------------;---;-----;-------;------;-------;------;---
+ngc3228;04 48 29.0610; 70;+11 00 11.628; 85;12.20;   0.60;  2.10;  -3.30;  2.20; 69
+ngc3228;04 48 15.9919; 10;+11 01 04.490; 15; 9.20;  -1.60;  1.90;   2.30;  1.80;  4
+ngc3228;04 49 41.3148; 71;+11 05 50.708; 77;11.70;  -1.20;  1.90;  -1.20;  2.00; 96
+ngc3228;04 48 41.3918; 12;+10 52 02.330; 16; 9.31;  -1.60;  1.40;  -2.60;  1.40; 98
+ngc3228;04 49 48.7224; 22;+10 45 28.724; 30;10.26;  -3.40;  1.60;  -3.00;  1.60; 95
+ngc3228;04 50 31.4995; 17;+10 58 52.478; 20; 9.67;  -1.30;  1.70;  -2.40;  1.60; 97
+ngc3228;04 48 00.5771; 20;+10 57 10.678; 29;10.02;  -0.90;  1.70;  -2.80;  1.70; 96
+ngc3228;04 48 27.8712; 33;+10 55 45.700; 43;10.33;  -2.70;  1.80;  -4.40;  1.70; 87
+ngc3228;04 48 29.5103;  9;+10 55 48.270; 12; 8.55;  -1.80;  1.50;  -1.90;  1.40; 98
+ngc3228;04 48 22.9247; 59;+10 53 14.014; 79;11.30;  -2.70;  2.00;  -2.90;  2.10; 97
+ngc3228;04 48 44.4266; 13;+10 53 21.426; 16; 9.47;  -2.70;  1.50;  -3.50;  1.40; 96
+ngc3228;04 48 34.4918;  9;+10 56 44.124; 12; 8.99;  -2.20;  1.50;  -1.20;  1.40; 97
+ngc3228;04 48 27.8461; 16;+10 55 08.411; 23; 9.62;  -1.50;  1.60;  -0.50;  1.60; 94
+ngc3228;04 48 24.9399; 13;+10 55 09.149; 19; 9.58;  -1.50;  1.40;  -0.60;  1.40; 95
+ngc3228;04 47 44.1657; 86;+11 06 57.352;102;11.84;  -1.90;  2.30;  -2.30;  2.50; 98
+ngc3228;04 47 16.8731; 23;+10 43 26.108; 31;10.27;  -3.20;  1.60;  -0.80;  1.60; 94
+ngc3228;04 49 28.1889; 56;+10 43 55.074; 70;12.29;  -2.10;  1.90;  -3.80;  2.00; 95
+ngc3228;04 48 42.2100; 38;+10 59 33.310; 56;11.07;  -2.10;  1.90;  -2.10;  1.90; 98
+ngc3228;04 48 25.1927; 36;+10 47 05.795; 34;10.78;   0.10;  1.80;  -2.80;  1.80; 88
+ngc3228;04 49 47.8982; 56;+10 50 03.383; 61;12.33;  -2.10;  2.10;  -6.40;  2.10;  7
+ngc3228;04 48 32.0831; 12;+10 57 59.018; 15; 9.00;  -3.10;  1.40;  -0.80;  1.40; 94
+ngc3228;04 46 57.9889; 34;+11 08 38.436; 36;10.49;   9.40;  1.40;   8.40;  1.30;  0
+ngc3228;04 45 17.1860; 15;+10 42 39.996; 19; 9.16;  12.70;  1.30; -19.60;  1.20;  0
+ngc3228;04 48 54.7044; 58;+10 44 51.637; 72;11.39;   0.30;  2.00;  -2.50;  2.10; 86
+ngc3228;04 49 17.2938; 15;+10 43 39.925; 20; 9.66;  -2.40;  1.50;  -0.90;  1.40; 96
+ngc3228;04 49 58.9691; 84;+10 47 37.525; 98;11.72;  -1.20;  2.30;  -9.90;  2.50;  0
+ngc3228;04 49 38.3169; 82;+10 42 22.385; 90;12.24;  -2.50;  2.20;  -2.40;  2.30; 98
+ngc3228;16 02 03.5566;140;-60 15 07.031;150;12.65;   2.00;  5.10;  -5.50;  4.70; 33
+ngc3228;16 02 53.8508;  8;-60 26 37.050;  9; 8.89;  -4.20;  1.60;  -2.80;  1.60; 92
+ngc3228;16 03 29.7401; 14;-60 26 18.352; 17; 9.92;  -5.00;  2.00;  -4.30;  2.00; 87
+ngc3228;16 03 03.8201; 17;-60 24 20.884; 16; 9.82;  -4.60;  3.60;  -3.70;  3.40; 90
+ngc3228;16 02 54.0783; 20;-60 28 32.819; 23;10.19;  -8.90;  3.60;  -4.00;  3.40; 18
+

@@ -1,0 +1,96 @@
+#
+#   VizieR Astronomical Server vizier.u-strasbg.fr
+#    Date: 2016-09-14T23:34:27 [V1.99+ (14-Oct-2013)]
+#   In case of problem, please report to: cds-question@unistra.fr
+#
+#
+#Coosys  J2000:   eq_FK5 J2000
+#INFO votable-version=1.99+ (14-Oct-2013)
+#INFO -ref=VIZ57d9dc34436f
+#INFO -out.max=unlimited
+#INFO queryParameters=24
+#-oc.form=dec
+#-out.max=unlimited
+#-out.add=_r
+#-out.add=_RAJ,_DEJ
+#-sort=_r
+#-nav=cat:I/337&tab:{I/337/tgas}&key:source=I/337/tgas&HTTPPRM:&-out.max=50&-out.form=HTML Table&-out.add=_r&-out.add=_RAJ,_DEJ&-sort=_r&-oc.form=sexa&
+#-c=00 47 20   +66 43 12
+#-c.eq=J2000
+#-c.r=  15
+#-c.u=arcmin
+#-c.geom=r
+#-source=I/337/tgas
+#-order=I
+#-out.orig=standard
+#-out=HIP
+#-out=TYC2
+#-out=RA_ICRS
+#-out=DE_ICRS
+#-out=Plx
+#-out=e_Plx
+#-out=pmRA
+#-out=e_pmRA
+#-out=pmDE
+#-out=e_pmDE
+#
+#INFO -c=011.833333+66.720000,rm=15.
+#
+
+#RESOURCE=yCat_1337
+#Name: I/337
+#Title: Gaia DR1 (Gaia Collaboration, 2016)
+#Table   I_337_tgas:
+#Name: I/337/tgas
+#Title: TGAS: Subset of GaiaSource comprising those stars in the Hipparcos and Tycho-2 Catalogues for which a full
+#5-parameter astrometric solution has been possible in Gaia Data Release
+#(TgasSource) ({\bf Download } Tgas Sources as vo tables, fits or csv
+#\W{xplain}{http://1016243957.rsc.cdn77.org/Gaia/tgas_source/}{here})
+# (\originalcolumnnames)
+#Column  _r (F7.4)   Distance from center (011.8333333333+66.7200000000)[FK5/J2000], at Epoch of catalog (Epoch)  [ucd=pos.angDistance]
+#Column  _RAJ2000 (F10.6)  Right ascension (FK5, Equinox=J2000.0) at Epoch=J2000, proper motions taken into account  (computed by VizieR, not part of the original data)   [ucd=pos.eq.ra]
+#Column  _DEJ2000 (F10.6)  Declination (FK5, Equinox=J2000.0) at Epoch=J2000, proper motions taken into account  (computed by VizieR, not part of the original data) [ucd=pos.eq.dec]
+#Column  HIP   (I6)  ? Hipparcos identifier (\original{hip}) [NULL integer written as an empty string]   [ucd=meta.id.cross]
+#Column  TYC2  (A12) Tycho 2 identifier (\original{tycho2_id}) [ucd=meta.id.cross]
+#Column  RA_ICRS  (F14.10) Right ascension (ICRS) at epoch Epoch (\original{ra}) [ucd=pos.eq.ra;meta.main]
+#Column  DE_ICRS  (F14.10) Declination (ICRS) at epoch Epoch (\original{dec}) [ucd=pos.eq.dec;meta.main]
+#Column  Plx   (F6.2)   Absolute barycentric stellar parallax of the source at the reference epoch Epoch (\original{parallax})   [ucd=pos.parallax]
+#Column  e_Plx (F5.2)   Standard error of parallax (\original{parallax_error})   [ucd=stat.error;pos.parallax]
+#Column  pmRA  (F9.3)   Proper motion in right ascension direction (\original{pmRA}) (G5) [ucd=pos.pm;pos.eq.ra]
+#Column  e_pmRA   (F6.3)   Standard error of proper motion in right ascension direction (\original{pmra_error})   [ucd=stat.error;pos.pm;pos.eq.ra]
+#Column  pmDE  (F9.3)   Proper motion in declination direction (\original{pmdec}) (G6) [ucd=pos.pm;pos.eq.dec]
+#Column  e_pmDE   (F6.3)   Standard error of proper motion in declination direction (\original{pmdec_error})   [ucd=stat.error;pos.pm;pos.eq.dec]
+_r;_RAJ2000;_DEJ2000;HIP;TYC2;RA_ICRS;DE_ICRS;Plx;e_Plx;pmRA;e_pmRA;pmDE;e_pmDE
+arcmin;deg;deg; ; ;deg;deg;mas;mas;mas/yr;mas/yr;mas/yr;mas/yr
+-------;----------;----------;------;------------;--------------;--------------;------;-----;---------;------;---------;------
+
+ 2.9588;011.920437;+66.685115;      ;4028-1011-1 ;011.9210310278;+66.6849470715;  9.41; 0.30;   56.432; 0.529;  -40.276; 0.605
+14.2591;011.285973;+66.622382;      ;4028-598-1  ;011.2864342296;+66.6221583470;  9.48; 0.27;   43.957; 0.613;  -53.582; 0.670
+
+ 6.5398;012.108745;+66.725784;      ;4028-836-1  ;012.1087605187;+66.7257737980;  1.31; 0.38;    1.446; 0.754;   -2.433; 1.021
+12.1872;012.337645;+66.681739;      ;4028-1012-1 ;012.3376799491;+66.6817420264;  1.43; 0.33;    3.325; 0.645;    0.631; 0.720
+11.8739;012.219565;+66.846390;      ;4028-863-1  ;012.2196339887;+66.8463876179;  1.86; 0.41;    6.535; 0.842;   -0.586; 0.986
+11.3236;012.292696;+66.669235;      ;4028-590-1  ;012.2927743134;+66.6692300531;  2.16; 0.45;    7.449; 0.957;   -1.190; 1.030
+ 8.6194;012.195044;+66.707006;      ;4028-232-1  ;012.1952232223;+66.7069783436;  2.75; 0.31;   17.033; 0.640;   -6.521; 0.737
+11.3635;011.370232;+66.769707;      ;4028-749-1  ;011.3705081488;+66.7697717294;  4.31; 0.29;   26.172; 0.630;   15.457; 0.916
+ 7.2709;011.951658;+66.831778;      ;4028-919-1  ;011.9519356946;+66.8317938426;  2.80; 0.95;   26.216; 5.245;    3.705; 2.204
+ 2.3917;011.746866;+66.740417;      ;4028-120-1  ;011.7466989839;+66.7404325895;  4.04; 0.27;  -15.855; 0.629;    3.702; 0.634
+10.1048;011.836589;+66.888497;      ;4028-908-1  ;011.8363376038;+66.8884097274;  7.68; 0.33;  -23.692; 0.563;  -21.002; 0.581
+12.9612;011.956584;+66.509604;      ;4028-1149-1 ;011.9565812717;+66.5095920642;  1.19; 0.28;   -0.245; 0.661;   -2.957; 0.685
+
+ 7.4963;011.735186;+66.838810;      ;4028-519-1  ;011.7351539104;+66.8387901486;  2.96; 0.38;   -2.982; 0.724;   -4.826; 0.681
+
+ 0.7855;011.821436;+66.707807;      ;4028-862-1  ;011.8213803712;+66.7077908558;  1.30; 0.35;   -5.235; 0.723;   -3.874; 0.792
+ 2.8364;011.935129;+66.744900;      ;4028-501-1  ;011.9350787864;+66.7448856515;  1.36; 0.29;   -4.741; 0.728;   -3.382; 0.802
+12.9562;011.602938;+66.915969;      ;4028-773-1  ;011.6028841698;+66.9159580083;  1.40; 0.32;   -5.068; 0.794;   -2.642; 0.791
+ 4.4986;011.793372;+66.646729;      ;4028-752-1  ;011.7933158741;+66.6467155101;  1.52; 0.36;   -5.311; 0.776;   -3.253; 0.906
+ 2.6941;011.789025;+66.761360;      ;4028-661-1  ;011.7889752516;+66.7613443423;  1.67; 0.39;   -4.705; 0.789;   -3.725; 0.893
+ 3.6486;011.679599;+66.721909;      ;4028-536-1  ;011.6795409654;+66.7218967990;  1.84; 0.35;   -5.499; 0.677;   -2.883; 0.731
+12.9529;011.794805;+66.504669;      ;4028-1140-1 ;011.7947518128;+66.5046620745;  1.84; 0.31;   -5.109; 0.662;   -1.734; 0.754
+ 2.8575;011.909188;+66.757053;  3709;            ;011.9091339533;+66.7570402778;  1.86; 0.31;   -5.151; 0.055;   -3.167; 0.052
+12.2349;012.172120;+66.874179;      ;4028-524-1  ;012.1720779601;+66.8741736074;  1.94; 0.51;   -3.982; 0.985;   -1.319; 1.088
+ 4.2811;011.766321;+66.786263;      ;4028-494-1  ;011.7662492732;+66.7862569042;  2.00; 0.38;   -6.748; 0.671;   -1.546; 1.024
+11.5841;012.179403;+66.856677;      ;4028-795-1  ;012.1793403359;+66.8566699470;  2.00; 0.32;   -5.885; 0.666;   -1.694; 0.770
+
+1.703 0.265 587   108   -79  very nice VPD
+
